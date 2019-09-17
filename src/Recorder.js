@@ -12,7 +12,7 @@ Recorder.prototype.extractAudioFile = function() {
   const audioBlob = new Blob(this.audioBits);
   // this.audioUrl = URL.createObjectURL(audioBlob);
   this.audioFile = new File([audioBlob], "audio");
-  console.log(this.audioFile);
+  // console.log(this.audioFile);
   return this.audioFile;
 };
 

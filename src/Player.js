@@ -36,10 +36,10 @@ Player.prototype.play = function() {
 Player.prototype.togglePlay = function() {
   if ((this.audio && this.audio.paused) || this.audio.ended) {
     this.play();
-    console.log("playing");
+    // console.log("playing");
   } else {
     this.audio.pause();
-    console.log("paused");
+    // console.log("paused");
   }
 };
 
