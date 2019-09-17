@@ -110,7 +110,7 @@ Player.prototype.incarnate = function() {
 
   const volImg1 = document.createElement("IMG");
   volImg1.className = "volume-icon";
-  volImg1.setAttribute("src", "../src/public/mute-icon.png");
+  volImg1.setAttribute("src", "./public/mute-icon.png");
   volumeSliderCont.appendChild(volImg1);
 
   const volumeSlider = document.createElement("INPUT");
@@ -128,7 +128,7 @@ Player.prototype.incarnate = function() {
 
   const volImg2 = document.createElement("IMG");
   volImg2.className = "volume-icon";
-  volImg2.setAttribute("src", "../src/public/white-volume.png");
+  volImg2.setAttribute("src", "./public/white-volume.png");
   volumeSliderCont.appendChild(volImg2);
 
   ul.appendChild(audioPlayerDiv);
