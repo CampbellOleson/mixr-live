@@ -1,0 +1,44 @@
+#tracksList {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.audio-bank-header {
+  color: #696969;
+  font-size: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#tracksList li {
+  color: white;
+  font-size: 20px;
+  border-top: 1px solid #ff0300;
+  border-left: 1px solid #ff0300;
+  border-right: 1px solid #ff0300;
+  box-shadow: 2px 2px 3px #ff0300;
+  padding: 10px;
+}
+
+#tracksList li:hover {
+  background-color: #ff0300;
+}
+
+#tracksList li p {
+  padding-left: 20px;
+}
+
+#audioBank {
+  overflow-x: auto;
+  width: 100%;
+  -webkit-box-shadow: inset 0px 0px 5px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 5px 4px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 5px 4px rgba(0, 0, 0, 0.75);
+  height: 40vh;
+  margin-bottom: 100px;
+}
