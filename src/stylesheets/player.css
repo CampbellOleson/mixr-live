@@ -82,6 +82,22 @@
   width: 20px;
   height: 20px;
   margin: 10px;
+  background-image: url("../public/white-volume.png");
+  background-position: center;
+  background-size: cover;
+  border: none;
+  background-color: #484848;
+}
+
+.mute-icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  background-image: url("../public/mute-icon.png");
+  background-position: center;
+  background-size: cover;
+  border: none;
+  background-color: #484848;
 }
 
 input[type="range"]::-webkit-slider-thumb {
