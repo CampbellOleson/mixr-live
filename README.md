@@ -14,3 +14,8 @@ mixr is a dynamic drum machine that lets artists import tracks and adjust audio 
 - vanilla js
 - other libraries tbd
 
+![Home Page](./screenshots/home.png)
+
+![Mix](./screenshots/mix.png)
+
+![Record](./screenshots/record.png)
