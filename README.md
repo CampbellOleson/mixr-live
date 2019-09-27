@@ -11,7 +11,7 @@
    **Track Stacking**
    
 - **mixr** allows you to record multiple tracks and play them back. 
-- Recorded tracks are stored in the audio bank. When you click on a track in the audio bank your track will be added to the mix.
+- Recorded tracks are stored in the **audio bank**. When you click on a track in the **audio bank** your track will be added to the mix.
 - Users can pan through tracks and adjust the volume of each track independently.
 
 ![Mix](./screenshots/mix.png)
