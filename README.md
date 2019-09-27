@@ -1,6 +1,6 @@
 # MIXR
 
-MIXR is a simple audio EQ where users can record multiple track and play then in sync.
+MIXR is a simple audio EQ where users can record multiple track and play them in sync.
 
 MIXR is built with regular **JavaScript, CSS, and HTML5**.
 
