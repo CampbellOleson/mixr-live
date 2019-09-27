@@ -4,20 +4,25 @@ MIXR is a dynamic drum machine that lets artists import tracks and adjust audio 
 
 MIXR is built with regular **JavaScript, CSS, and HTML5**.
 
-## features
-
-- audio playback alteration (speeding up, slowing down, or changing the pitch of a track)
-- sample deck (a keyboard that you can map any audio to)
-- layering tracks
-- representing tracks visually
-
-## tech
-
-- vanilla js
-- other libraries tbd
-
 ![Home Page](./screenshots/home.png)
+
+## Features
+
+   **Track Stacking**
+   
+- You can stack bb
 
 ![Mix](./screenshots/mix.png)
 
-![Record](./screenshots/record.png)
+   **Audio Bank**
+   
+- Compositions on MIXR aren't lost when a user navigates away from the page. 
+- Audio files are base64 encoded and stored as strings in local storage, then retrieved for playback
+
+``function _arrayBufferToFile(uri) {``
+  ``const arrayBuffer = _base64ToArrayBuffer(uri);``
+  ``const file = new File([arrayBuffer], "success");``
+  ``return file;``
+``}``
+
+![Mix](./screenshots/record.png)
