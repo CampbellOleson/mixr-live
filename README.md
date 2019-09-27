@@ -19,7 +19,8 @@ MIXR is built with regular **JavaScript, CSS, and HTML5**.
 - Compositions on MIXR aren't lost when a user navigates away from the page. 
 - Audio files are base64 encoded and stored as strings in local storage, then retrieved for playback
 
-```function _arrayBufferToFile(uri) {
+``` javascript
+  function _arrayBufferToFile(uri) {
     const arrayBuffer = _base64ToArrayBuffer(uri);
     const file = new File([arrayBuffer], "success");
     return file;
