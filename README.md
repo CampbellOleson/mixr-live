@@ -1,4 +1,4 @@
-# MIXR
+# [mixr](https://campbelloleson.github.io/mixr-live/)
 
 MIXR is a simple audio EQ where users can record multiple track and play them in sync.
 
