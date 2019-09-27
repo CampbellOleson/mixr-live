@@ -24,6 +24,7 @@ MIXR is built with regular **JavaScript, CSS, and HTML5**.
     const arrayBuffer = _base64ToArrayBuffer(uri);
     const file = new File([arrayBuffer], "success");
     return file;
-  }```
+  }
+```
 
 ![Mix](./screenshots/record.png)
