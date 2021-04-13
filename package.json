@@ -23,7 +23,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
-    "compile-sass": "^1.0.1",
+    "compile-sass": "^1.0.5",
     "webpack": "^4.39.3"
   }
 }
