@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/CampbellOleson/mixr#readme",
   "devDependencies": {
-    "webpack-cli": "^3.3.8",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
