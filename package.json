@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/CampbellOleson/mixr#readme",
   "devDependencies": {
-    "webpack-cli": "^3.3.8",
+    "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
     "compile-sass": "^1.0.1",
-    "webpack": "^4.39.3"
+    "webpack": "^5.75.0"
   }
 }
